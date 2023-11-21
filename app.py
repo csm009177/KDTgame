@@ -18,13 +18,19 @@
 # pokemon = ['피카츄', '파이리', '이상해씨']
 # wantPoke = '이상해씨'
 # for i in range(len(pokemon)):
-#   index=''
+#   index= -1
 #   if pokemon[i] == wantPoke :
 #     index = i
 #     break
 # print(index)
 
 # 4. '_pokemon' 배열에서 이름이 '리'로 시작하는 포켓몬만을 새로운 배열에 담아 출력해주세요.
+pokemon = ['피카츄', '파이리', '이상해씨']
+leeArray = []
+for i in range(len(pokemon)):
+  if pokemon[i][0]=='피':
+    leeArray = pokemon[i]
+print(leeArray)
 
 
 

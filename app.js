@@ -12,15 +12,15 @@
 // console.log(_pokemon)
 
 // 3. '_pokemon' 배열에서 찾고자 하는 포켓몬의 인덱스를 찾아주세요. 포켓몬이 배열에 없다면 -1을 출력하세요.
-const _pokemon = ['피카츄', '파이리', '이상해씨'];
-const wantPoke = "피카츄"
-for(i=0; i<_pokemon.length; i++){
-  let index = -1;
-  if(_pokemon[i]=== wantPoke){
-    index=i;
-  }
-  return console.log(index)
-}
+// const _pokemon = ['피카츄', '파이리', '이상해씨'];
+// const wantPoke = "피카츄"
+// for(i=0; i<_pokemon.length; i++){
+//   let index = -1;
+//   if(_pokemon[i]=== wantPoke){
+//     index=i;
+//   }
+//   return console.log(index)
+// }
 
 
 // 4. '_pokemon' 배열에서 이름이 '리'로 시작하는 포켓몬만을 새로운 배열에 담아 출력해주세요.
