@@ -1,4 +1,14 @@
 # 1. 포켓몬스터 배열 '_pokemon'에 새로운 포켓몬을 추가해주세요. if나 for문을 사용하여 _pokemon 배열의 마지막에 새로운 포켓몬 이름을 추가하세요.
+pokemon = ['피카츄', '파이리', '이상해씨']
+new_pokemon = '꼬부기'
+
+for i in range(len(pokemon)):
+    if i == len(pokemon) - 1:
+        pokemon += [new_pokemon]
+        # pokemon[i] = new_pokemon
+
+print(pokemon)
+
 # 2. '_pokemon' 배열의 마지막 포켓몬을 방출해주세요. 이를 위해 배열의 마지막 원소를 제거하고, 그 원소의 이름을 출력하세요.
 # 3. '_pokemon' 배열에서 찾고자 하는 포켓몬의 인덱스를 찾아주세요. 포켓몬이 배열에 없다면 -1을 출력하세요.
 # 4. '_pokemon' 배열에서 이름이 '리'로 시작하는 포켓몬만을 새로운 배열에 담아 출력해주세요.
