@@ -25,16 +25,26 @@
 # print(index)
 
 # 4. '_pokemon' 배열에서 이름이 '리'로 시작하는 포켓몬만을 새로운 배열에 담아 출력해주세요.
-pokemon = ['피카츄', '파이리', '이상해씨']
-leeArray = []
-for i in range(len(pokemon)):
-  if pokemon[i][0]=='피':
-    leeArray = pokemon[i]
-print(leeArray)
-
-
+# pokemon = ['피카츄', '파이리', '이상해씨']
+# leeArray = []
+# for i in range(len(pokemon)):
+#   if pokemon[i][0]=='피':
+#     leeArray = pokemon[i]
+# print(leeArray)
 
 # 5. '_pokemon' 배열에서 특정 포켓몬이 있는지 확인하고 결과를 출력해주세요.
+pokemon = ['피카츄', '파이리', '이상해씨']
+selectPokemon = "파이리"
+exists = False
+for i in range(len(pokemon)):
+  if pokemon[i] == selectPokemon:
+    exists = True
+    break
+if exists:
+    print("exist")
+else:
+    print("no exist")
+
 # 6. '_pokemon' 배열의 원소들의 순서를 뒤집어 출력해주세요.
 # 7. '_pokemon' 배열의 원소들을 가나다 순으로 정렬해 출력해주세요.
 # 8. '_pokemon' 배열에서 총 6개의 포켓몬만을 새로운 배열에 담아 출력해주세요.
