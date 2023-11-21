@@ -4,15 +4,16 @@
 // _pokemon[_pokemon.length] = newPokemon;
 // console.log(_pokemon)
 // 2. '_pokemon' 배열의 마지막 포켓몬을 방출해주세요. 이를 위해 배열의 마지막 원소를 제거하고, 그 원소의 이름을 출력하세요.
-const _pokemon = ['피카츄', '파이리', '이상해씨'];
-const newPokemon = '꼬부기';
-const lastPokemon = _pokemon[_pokemon.length-1]
-console.log(lastPokemon)
-_pokemon.length--
-console.log(_pokemon)
-
+// const _pokemon = ['피카츄', '파이리', '이상해씨'];
+// const newPokemon = '꼬부기';
+// const lastPokemon = _pokemon[_pokemon.length-1]
+// console.log(lastPokemon)
+// _pokemon.length--
+// console.log(_pokemon)
 
 // 3. '_pokemon' 배열에서 찾고자 하는 포켓몬의 인덱스를 찾아주세요. 포켓몬이 배열에 없다면 -1을 출력하세요.
+
+
 // 4. '_pokemon' 배열에서 이름이 '리'로 시작하는 포켓몬만을 새로운 배열에 담아 출력해주세요.
 // 5. '_pokemon' 배열에서 특정 포켓몬이 있는지 확인하고 결과를 출력해주세요.
 // 6. '_pokemon' 배열의 원소들의 순서를 뒤집어 출력해주세요.
