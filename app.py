@@ -46,10 +46,10 @@
 #     print("no exist")
 
 # 6. '_pokemon' 배열의 원소들의 순서를 뒤집어 출력해주세요.
-pokemon = ['피카츄', '파이리', '이상해씨']
+# pokemon = ['피카츄', '파이리', '이상해씨']
 
-for i in range(len(pokemon)):
-    print(pokemon[-i-1])
+# for i in range(len(pokemon)): 
+#     print(pokemon[-i-1])      # pokemon[-0-1] => pokemon[-1-1] => pokemon[-2-1] 
 
 # print("-"*10)
 # print(pokemon[ 0]) #피카츄

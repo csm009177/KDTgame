@@ -46,8 +46,11 @@
 // }  
 
 // 6. '_pokemon' 배열의 원소들의 순서를 뒤집어 출력해주세요.
-
-
+const _pokemon = ['피카츄', '파이리', '이상해씨'];
+for(i=0; i<_pokemon.length; i++){
+  console.log(_pokemon[2-i])   // 무조건 인덱스를 가져오는식
+  // _pokemon[2-0] => _pokemon[2-1] => _pokemon[2-2] 
+}
 
 // 7. '_pokemon' 배열의 원소들을 가나다 순으로 정렬해 출력해주세요.
 // 8. '_pokemon' 배열에서 총 6개의 포켓몬만을 새로운 배열에 담아 출력해주세요.
