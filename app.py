@@ -33,19 +33,33 @@
 # print(leeArray)
 
 # 5. '_pokemon' 배열에서 특정 포켓몬이 있는지 확인하고 결과를 출력해주세요.
-pokemon = ['피카츄', '파이리', '이상해씨']
-selectPokemon = "파이리"
-exists = False
-for i in range(len(pokemon)):
-  if pokemon[i] == selectPokemon:
-    exists = True
-    break
-if exists:
-    print("exist")
-else:
-    print("no exist")
+# pokemon = ['피카츄', '파이리', '이상해씨']
+# selectPokemon = "파이리"
+# exists = False
+# for i in range(len(pokemon)):
+#   if pokemon[i] == selectPokemon:
+#     exists = True
+#     break
+# if exists:
+#     print("exist")
+# else:
+#     print("no exist")
 
 # 6. '_pokemon' 배열의 원소들의 순서를 뒤집어 출력해주세요.
+pokemon = ['피카츄', '파이리', '이상해씨']
+
+for i in range(len(pokemon)):
+    print(pokemon[-i-1])
+
+# print("-"*10)
+# print(pokemon[ 0]) #피카츄
+# print(pokemon[-0]) #피카츄
+# print(pokemon[-1]) #이상해씨
+# print(pokemon[-2]) #파이리
+# print(pokemon[-3]) #피카츄
+# for i in reversed(pokemon):
+#     print(i)
+
 # 7. '_pokemon' 배열의 원소들을 가나다 순으로 정렬해 출력해주세요.
 # 8. '_pokemon' 배열에서 총 6개의 포켓몬만을 새로운 배열에 담아 출력해주세요.
 # 9. '_pokemon' 배열과 다른 하나인 '_digimon' 배열을 연결해 새로운 배열을 생성해주세요.
