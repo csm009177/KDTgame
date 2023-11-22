@@ -62,20 +62,19 @@
 #     print(i)
 
 # 7. '_pokemon' 배열의 원소들을 가나다 순으로 정렬해 출력해주세요. 
-pokemon = ['피카츄', '파이리', '이상해씨']
+# pokemon = ['피카츄', '파이리', '이상해씨']
 
-for i in range(0, len(pokemon)):   # range(0, 3)
-    min = i                             
-    print(" i :", i, "\n", "min :", min)
-    print("--"*10)        
-    for j in range(i, len(pokemon)):    # range(0, 3) ->s range(1, 3) -> range(2, 3)
-        # print(range(i, len(pokemon))) 
-        print(" i:", i,"  ","min:", min,"  ","j:", j )
-        if pokemon[j] < pokemon[min]:              
-            min = j
-    pokemon[i], pokemon[min] = pokemon[min], pokemon[i] # 순서 바꾸기
-    print("--"*10)  
-print(pokemon)
+# for i in range(0, len(pokemon)):   # range(0, 3)
+#     min = i                             
+#     print(" i :", i, "\n", "min :", min)
+#     print("--"*10)        
+#     for j in range(i, len(pokemon)):    # range(0, 3) ->s range(1, 3) -> range(2, 3)
+#         if pokemon[j] < pokemon[min]:              
+#             min = j
+#         print(" i:", i,"  ","min:", min,"  ","j:", j )
+#     pokemon[i], pokemon[min] = pokemon[min], pokemon[i] # 순서 바꾸기
+#     print("--"*10)  
+# print(pokemon)
 
 # 8. '_pokemon' 배열에서 총 6개의 포켓몬만을 새로운 배열에 담아 출력해주세요.
 # 9. '_pokemon' 배열과 다른 하나인 '_digimon' 배열을 연결해 새로운 배열을 생성해주세요.
