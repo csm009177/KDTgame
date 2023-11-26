@@ -77,14 +77,6 @@
 # print(pokemon)
 
 # 8. '_pokemon' 배열에서 총 6개의 포켓몬만을 새로운 배열에 담아 출력해주세요.
-pokemon = ['피카츄', '라이츄', '파이리', '꼬부기', '버터풀', '야도란', '피죤투', '이상해씨' ]
-newPoke = [];
-for i in range(len(pokemon)):
-    if len(newPoke) < 6:
-        newPoke = newPoke + [pokemon[i]]
-print(newPoke)
-
-
 # 9. '_pokemon' 배열과 다른 하나인 '_digimon' 배열을 연결해 새로운 배열을 생성해주세요.
 # 10. '_pokemon' 배열의 길이(length 프로퍼티 사용제외)를 출력해주세요.
 # 11. '_pokemon' 배열에서 특정 인덱스의 포켓몬 이름을 새로운 이름으로 변경해주세요.
