@@ -93,11 +93,11 @@
 # print(digimon)
 
 # 10. '_pokemon' 배열의 길이(length 프로퍼티 사용제외)를 출력해주세요.
-pokemon = ['피카츄', '라이츄', '파이리', '꼬부기', '버터풀', '야도란', '피죤투', '이상해씨']
-count = 0
-for i in pokemon:
-    count += 1
-print(count)
+# pokemon = ['피카츄', '라이츄', '파이리', '꼬부기', '버터풀', '야도란', '피죤투', '이상해씨']
+# count = 0
+# for i in pokemon:
+#     count += 1
+# print(count)
 
 
 
