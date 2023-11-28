@@ -99,9 +99,14 @@
 #     count += 1
 # print(count)
 
-
-
 # 11. '_pokemon' 배열에서 특정 인덱스의 포켓몬 이름을 새로운 이름으로 변경해주세요.
+pokemon = ['피카츄', '라이츄', '파이리', '꼬부기', '버터풀', '야도란', '피죤투', '이상해씨']
+def pickbynum(i, newName):
+  if i < len(pokemon):
+      pokemon[i] = newName
+pickbynum(0, "까끼츄")
+print(pokemon)
+
 # 12. '_pokemon' 배열의 모든 포켓몬 이름 뒤에 'Lv2'를 붙여 새로운 배열을 만들어 출력해주세요.
 # 13. '_pokemon' 배열의 모든 원소를 순회하며 출력해주세요.
 # 14. '_pokemon' 배열에서 포켓몬스터 이름 '두'로 시작하는 조건에 알맞는 포켓몬 중 찾은 목록에서 두번째 포켓몬을 찾아 출력해주세요.
