@@ -110,7 +110,6 @@
 # 12. '_pokemon' 배열의 모든 포켓몬 이름 뒤에 'Lv2'를 붙여 새로운 배열을 만들어 출력해주세요.
 pokemon = ['피카츄', '라이츄', '파이리', '꼬부기', '버터풀', '야도란', '피죤투', '이상해씨']
 newPoke = [poke + 'Lv2' for poke in pokemon]
-
 print(newPoke)
 
 
